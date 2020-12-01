@@ -12,16 +12,16 @@ while(incorrect){
     }
 
     else if (svar>answer){
-        alert("för högt retard hahah du är sämst");
+        alert("för högt ");
     }
     else if (svar<answer){
-        alert("du är fan sämst hur kan man vara så retarderad ingen hade brytt sig om du tog livet av dig");
+        alert("för högt");
     }
     else if(svar==answer){
-        alert("Gunbritt 63 bor inom 200 meter");
+        alert("bra");
         incorrect = false;
     }
     else {
-        alert("retard?!?");
+        alert("ok");
     }
 }
